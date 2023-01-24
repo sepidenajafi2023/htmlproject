@@ -1,0 +1,198 @@
+
+@font-face {
+    font-family: myfont;
+    src: url(../font/B-Titr/B\ Titr\ Bold_0.ttf);
+}
+@font-face{
+    font-family: myfont1;
+    src: url(../font/IranNastaliq.ttf);
+}
+@font-face{
+    font-family: myfont2;
+    src: url(../font/DimaShekasteh.ttf);
+}
+@font-face{
+    font-family: myfont3;
+    src: url(../font/Shekastehv2.ttf);
+}
+
+/* ***************************header */
+body{
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+nav{
+    direction: rtl;
+    position: sticky !important;
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: 80px; 
+    font-family: myfont2 !important;
+    align-items: center;
+}
+
+.bg-light{
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+}
+
+.form-inline my-2 my-lg-0{
+    display: flex !important;
+    flex-grow: 3 !important;
+}
+nav h1{
+    flex-grow: 1!important;
+    margin-left: 50%;
+    margin-top: 5px !important;
+    color: aliceblue;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+nav button{
+    color: aliceblue !important;
+}
+.btn-outline-success{
+    border:1px solid rgb(236, 217, 217) !important;
+    width: 40px !important;
+    text-align: center;
+    margin-right: 2px;    
+}
+ 
+nav input{
+    width: 170px !important;
+    border: solid 1px rgb(238, 224, 224) !important;
+}
+nav button:hover{
+    background-color: #82453b !important;
+}
+
+  
+/* ************************sidebar ***********************************/
+
+#mySidenav a {
+    position: fixed;
+    right: -50px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 105px;
+    text-decoration: none;
+    font-size: 17px;
+    color:  rgb(250, 238, 238);
+    border-radius:7px ;
+    margin-top: 75px;
+    line-height: 25px;
+    font-family: myfont1;
+  }
+  
+  #mySidenav a:hover {
+    right: 0;
+    background-color: #db7769;
+  }
+  
+  #about {
+    top: 10px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+  }
+  
+  #blog {
+    top: 70px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);  }
+  
+  #projects {
+    top: 130px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);  }
+  
+  #contact {
+    top: 190px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);  }
+  #about1 {
+    top: 250px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);  }
+
+
+
+
+/* *******************contact us********************************************************* */
+h3{
+    margin-top: 20px;
+    text-align: center !important;
+    font-family: myfont;
+    font-size: 17px;
+    width: 500px;
+    border-radius: 5px;
+    background-image: linear-gradient(-225deg, #e8e7d0 0%, #d6eeed 100%);
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.container input,  textarea {
+    display: flex !important;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    direction: rtl !important;
+    background-color: #c7e1d7;
+    color: rgb(15, 14, 14);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+
+  .container form {
+    margin-left: 150px !important;
+    display: flexbox !important;
+    width: 500px;
+    text-align: right !important;
+    border-radius: 5px;
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    padding: 10px;
+    font-family: myfont;
+    font-size: 12px;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  @media only screen and (max-width: 600px){
+	.container{
+		width: 350px;
+        margin-left: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.container{
+		width: 350px;
+        margin-left: 0 !important;
+	} 
+}
+@media only screen and (max-width: 992px){
+	.container{
+		width: 350px;
+        margin-left: 0 !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

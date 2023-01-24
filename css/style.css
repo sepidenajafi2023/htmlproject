@@ -1,0 +1,228 @@
+
+@font-face {
+    font-family: myfont;
+    src: url(../font/B-Titr/B\ Titr\ Bold_0.ttf);
+}
+@font-face{
+    font-family: myfont1;
+    src: url(../font/IranNastaliq.ttf);
+}
+@font-face{
+    font-family: myfont2;
+    src: url(../font/DimaShekasteh.ttf);
+}
+@font-face{
+    font-family: myfont3;
+    src: url(../font/Shekastehv2.ttf);
+}
+
+/* ***************************header */
+body{
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+nav{
+    direction: rtl;
+    position: sticky !important;
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: 80px; 
+    font-family: myfont2 !important;
+    align-items: center;
+}
+
+.bg-light{
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+}
+
+.form-inline my-2 my-lg-0{
+    display: flex !important;
+    flex-grow: 3 !important;
+}
+nav h1{
+    flex-grow: 1!important;
+    margin-left: 50%;
+    margin-top: 5px !important;
+    color: aliceblue;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+nav button{
+    color: aliceblue !important;
+}
+.btn-outline-success{
+    border:1px solid rgb(236, 217, 217) !important;
+    width: 40px !important;
+    text-align: center;
+    margin-right: 2px;    
+}
+ 
+nav input{
+    width: 170px !important;
+    border: solid 1px rgb(238, 224, 224) !important;
+}
+nav button:hover{
+    background-color: #82453b !important;
+}
+
+  
+/* ************************sidebar ***********************************/
+
+#mySidenav a {
+    position: fixed;
+    right: -50px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 105px;
+    text-decoration: none;
+    font-size: 17px;
+    color:  rgb(250, 238, 238);
+    border-radius:7px ;
+    margin-top: 75px;
+    line-height: 25px;
+    font-family: myfont1;
+  }
+  
+  #mySidenav a:hover {
+    right: 0;
+    background-color: #db7769;
+  }
+  
+  #about {
+    top: 10px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+  }
+  
+  #blog {
+    top: 70px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);  }
+  
+  #projects {
+    top: 130px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);  }
+  
+  #contact {
+    top: 190px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);  }
+  #about1 {
+    top: 250px;
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);  }
+
+
+/* ********************************card******************************** */
+.card{  
+    font-family: myfont;
+    position: static;
+    width: 250px !important;
+    height: 350px !important;
+    border: 0px !important;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.card-body{
+    text-align: right;
+    direction: rtl;
+}
+
+.sec2{
+    display: flex !important;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-direction: row-reverse;
+    margin-top: 80px; 
+    margin-bottom: 100px; 
+    margin-right: 120px; 
+    margin-left: 0px ;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+	overflow: hidden;
+}
+.sec2 img{
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+}
+.sec2 p{
+    font-size: 12px;
+    text-align: justify;
+    font-size:max(15px.1.5vw) ;
+}
+.card a{
+    background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
+}
+.card h4{
+    font-size: 15px !important;
+    font-size: max(25px,3vw);
+}
+.btn-primary{
+    border: 0px;
+}
+
+
+
+/* ************************footer********************************************************* */
+footer{
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);    margin-top: 40px;
+    direction: rtl;
+    font-family: myfont;  
+    position: -webkit-sticky; 
+}
+.row{
+    text-align: justify;
+}
+.row h5{
+    color: rgb(69, 20, 6);
+    margin-right: 70px;
+    font-size: 16px !important;
+    font-size:max(12px.1.5vw) ;
+}
+.row ul a{
+    color: rgb(2, 35, 18);
+    font-size: small;
+    font-size: 11px;
+    font-size:max(10px.1.5vw) ;
+}
+.row p{
+    color: rgb(2, 35, 18);
+    font-size: 12px;
+    font-size:max(10px.1.5vw) ;
+}
+.row ul{
+    padding: 5px;
+    margin-right: 70px;
+}
+.footer-copyright{
+    font-size: 11px;
+}
+.social-container{
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.col a{
+    color: rgb(69, 20, 6);
+    margin-right: 135px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
